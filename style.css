@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درباره من - سایت امیر :sunglasses:</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #00ffff;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      margin: 15px;
+    }
+    a:hover {
+      color: #ff00ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>درباره من</h1>
+  <p>سلام! من امیرم :sunglasses:</p>
+  <p>این اولین سایتیه که خودم با رفیقم ساختم!</p>
+  <a href="site.html">بازگشت به صفحه اصلی</a>
+</body>
+</html>
