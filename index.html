@@ -74,5 +74,74 @@
   </nav>
 </body>
 </html>
-10:20
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت رفیق امیر :sunglasses::zap:</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      height: 100vh;
+      color: #00ffff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+      animation: pulse 2s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { transform: scale(1); opacity: 0.8; }
+      to { transform: scale(1.1); opacity: 1; }
+    }
+
+    button {
+      background: linear-gradient(90deg, #00ffff, #ff00ff);
+      border: none;
+      padding: 15px 40px;
+      font-size: 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      color: white;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px #ff00ff;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>به آینده خوش اومدی رفیق :zap::sunglasses:</h1>
+  <button onclick="playMusic()">بزن بریم رفیق :rocket:</button>
+  <audio id="music" src="https://cdn.pixabay.com/download/audio/2023/03/07/audio_58cf00d6e1.mp3?filename=cyberpunk-power-139030.mp3"></audio>
+
+  <script>
+    function playMusic() {
+      const music = document.getElementById('music');
+      music.play();
+      alert('رفیق آماده شو! به شهر آینده وارد شدی :sunglasses::fire:');
+    }
+  </script>
+</body>
+</html>
+
 
