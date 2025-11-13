@@ -29,3 +29,28 @@
   <a href="site.html">بازگشت به صفحه اصلی</a>
 </body>
 </html>
+body {
+  background: url('https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Tahoma', sans-serif;
+  color: #00ffff;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.neon-text h1 {
+  font-size: 3em;
+  color: #00e6ff;
+  text-shadow: 0 0 5px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 5px #00ffff, 0 0 20px #00ffff; }
+  to { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff; }
+}
+
+p {
+  color: #b3ffff;
+  font-size: 1.5em;
+}
