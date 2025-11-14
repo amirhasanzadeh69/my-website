@@ -54,3 +54,29 @@ p {
   color: #b3ffff;
   font-size: 1.5em;
 }
+.neon {
+  color: #00ffff;
+  font-size: 40px;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff,
+    0 0 80px #00ffff;
+  animation: neonPulse 2s infinite alternate;
+}
+
+@keyframes neonPulse {
+  from {
+    text-shadow:
+      0 0 5px #00ffff,
+      0 0 10px #00ffff;
+  }
+  to {
+    text-shadow:
+      0 0 20px #00ffff,
+      0 0 40px #00ffff,
+      0 0 80px #00ffff;
+  }
+}
+
