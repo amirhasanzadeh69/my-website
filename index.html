@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>سایت رفیق امیر :sunglasses:</title>
   <style>
+    body {
+  background: linear-gradient(135deg, #000428, #004e92);
+  background-size: 400% 400%;
+  animation: bgMove 10s ease infinite;
+  color: #00eaff;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
     <audio id="song" src="music.mp3"></audio>
 <button onclick="document.getElementById('song').play()">:arrow_forward: پخش آهنگ</button>
 <button onclick="document.getElementById('song').pause()">⏸ توقف</button>
