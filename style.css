@@ -115,4 +115,15 @@ p {
         width: 100%;
         height: auto;
     }
+}body {
+    background-size: cover;
+    background-position: center;
+    animation: bgMove 20s infinite alternate ease-in-out;
 }
+
+@keyframes bgMove {
+    0% { background-position: center top; }
+    100% { background-position: center bottom; }
+}
+
+
