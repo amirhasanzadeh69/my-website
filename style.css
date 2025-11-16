@@ -79,4 +79,10 @@ p {
       0 0 80px #00ffff;
   }
 }
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
 
