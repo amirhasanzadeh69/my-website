@@ -1,3 +1,12 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 <!DOCTYPE html>
 <html lang="fa">
 <head>
