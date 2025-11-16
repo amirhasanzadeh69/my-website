@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>درباره من - سایت امیر :sunglasses:</title>
   <style>
-    body {
+    body {background-image: url("city.png");
       background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       color: #00ffff;
       font-family: sans-serif;
