@@ -9,7 +9,7 @@
 }
 <!DOCTYPE html>
 <html lang="fa">
-<head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>درباره من - سایت امیر :sunglasses:</title>
@@ -29,15 +29,12 @@
     a:hover {
       color: #ff00ff;
     }
-  </style>
-</head>
-<body>
+  
   <h1>درباره من</h1>
   <p>سلام! من امیرم :sunglasses:</p>
   <p>این اولین سایتیه که خودم با رفیقم ساختم!</p>
   <a href="site.html">بازگشت به صفحه اصلی</a>
-</body>
-</html>
+
 body {
   background: url('https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
   background-size: cover;
