@@ -1,210 +1,29 @@
-<img src="space.jpg" alt="space" class="hero-image">
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>سایت رفیق امیر :sunglasses:</title>
-  <style>
-    body {
-  background: linear-gradient(135deg, #000428, #004e92);
-  background-size: 400% 400%;
-  animation: bgMove 10s ease infinite;
-  color: #00eaff;
-  font-family: sans-serif;
-  text-align: center;
-  padding: 50px;
-}
-
-@keyframes bgMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-h1, p {
-  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff, 0 0 40px #00eaff;
-  transition: 0.3s;
-}
-
-    <audio id="song" src="music.mp3"></audio>
-<button onclick="document.getElementById('song').play()">:arrow_forward: پخش آهنگ</button>
-<button onclick="document.getElementById('song').pause()">⏸ توقف</button>
-
-    body {
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-      color: #00ffff;
-      font-family: sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-
-    h1 {
-      color: #00ffff;
-      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
-      animation: glowText 2s ease-in-out infinite alternate;
-    }
-
-    @keyframes glowText {
-      from {
-        text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
-      }
-      to {
-        text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff;
-      }
-    }
-
-    button {
-      background-color: #00ffff;
-      border: none;
-      color: #121212;
-      padding: 15px 30px;
-      font-size: 18px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    button:hover {
-      background-color: #ff00ff;
-      color: white;
-      box-shadow: 0 0 15px #ff00ff;
-    }
-
-    nav {
-      margin-top: 20px;
-    }
-
-    nav a {
-      color: #00ffff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 18px;
-    }
-
-    nav a:hover {
-      color: #ff00ff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت من</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-.neon-btn {
-  background: transparent;
-  border: 2px solid #00ffff;
-  padding: 15px 30px;
-  font-size: 20px;
-  color: #00ffff;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 0 10px #00ffff;
-  transition: 0.3s;
-}
+<body class="fade-in">
 
-.neon-btn:hover {
-  box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
-  color: #ff00ff;
-  border-color: #ff00ff;
-}
- <img src="https://i.ibb.co/5Wq6wYJ/future-city.jpg" width="400" style="border-radius:15px; margin-bottom:20px;">
- 
-  <h1 class="fade-in">به سایت من خوش اومدی</h1>
-  <p>اینجا سایت رفیق امیره!</p>
+    <div style="text-align: center; padding-top: 120px;">
+        <h1 style="color: white; font-size: 48px; margin-bottom: 20px;">
+            به سایت من خوش آمدید 🤝
+        </h1>
 
-  <button class="neon-btn" onclick="alert('رفیق خوش اومدی :smile:!')">بزن رفیق :sunglasses:</button
-                                                                                             
+        <a href="about.html" style="font-size: 22px; padding: 10px;">
+            درباره من
+        </a>
 
-  <nav>
-    <a href="#">صفحه اصلی</a>
-    <a href="#">درباره من</a>
-    <a href="#">تماس با من</a>
-  </nav>
+        <br><br>
+
+        <a href="m" style="font-size: 22px; padding: 10px;">
+            موزیک من :loud_sound:
+        </a>
+
+    </div>
+
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>سایت رفیق امیر :sunglasses::zap:</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-
-    body {
-      margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-      height: 100vh;
-      color: #00ffff;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    h1 {
-      font-size: 3em;
-      text-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
-      animation: pulse 2s infinite alternate;
-    }
-
-    @keyframes pulse {
-      from { transform: scale(1); opacity: 0.8; }
-      to { transform: scale(1.1); opacity: 1; }
-    }
-
-    button {
-      background: linear-gradient(90deg, #00ffff, #ff00ff);
-      border: none;
-      padding: 15px 40px;
-      font-size: 20px;
-      border-radius: 15px;
-      cursor: pointer;
-      color: white;
-      margin-top: 20px;
-      transition: transform 0.3s;
-    }
-
-    button:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 25px #ff00ff;
-    }
-
-    audio {
-      display: none;
-    }
-  </style>
-</head>
-<body>
-  <audio autoplay loop>
-  <source src="sound.mp3" type="audio/mpeg">
-</audio>
-
-<div class="neon-text">
-  <h1>به شهر آینده خوش اومدی :night_with_stars:</h1>
-  <p>آماده‌ای برای سفر به آینده؟ :rocket:</p>
-</div>
-
-  <h1>به آینده خوش اومدی رفیق :zap::sunglasses:</h1>
-  <button onclick="playMusic()">بزن بریم رفیق :rocket:</button>
-  <audio id="music" src="https://cdn.pixabay.com/download/audio/2023/03/07/audio_58cf00d6e1.mp3?filename=cyberpunk-power-139030.mp3"></audio>
-
-  <script>
-    function playMusic() {
-      const music = document.getElementById('music');
-      music.play();
-      alert('رفیق آماده شو! به شهر آینده وارد شدی :sunglasses::fire:');
-    }
-  </script>
-</body>
-  <audio autoplay loop>
-  <source src="music.mp3" type="audio/mpeg">
-</audio>
-</html>
-<audio id="bg-music" autoplay loop>
-  <source src="music.mp3" type="audio/mpeg">
-  مرورگر شما از پخش خودکار صدا پشتیبانی نمی‌کند.
-</audio>
-
-
-
-
