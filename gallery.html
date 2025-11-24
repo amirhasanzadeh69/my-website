@@ -1,31 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>گالری</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 style="color:white; text-align:center; margin-top:60px;">گالری سایت</h1>
-</body>
-    <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <title>گالری تصاویر</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گالری تصاویر من</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .gallery-container {
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .gallery-title {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .gallery-grid img:hover {
+            transform: scale(1.07);
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>گالری عکس‌های من</h1>
+    <div class="gallery-container fade-in">
+        <h1 class="gallery-title">گالری عکس‌های من 📸</h1>
 
-<div class="gallery">
-    <img src="images/photo1.jpg" alt="">
-    <img src="images/photo2.jpg" alt="">
-    <img src="images/photo3.jpg" alt="">
-</div>
+        <div class="gallery-grid">
+
+            <img src="city.png" alt="عکس ۱">
+            <img src="city.png" alt="عکس ۲">
+            <img src="city.png" alt="عکس ۳">
+            <img src="city.png" alt="عکس ۴">
+
+        </div>
+    </div>
 
 </body>
-</html>
-
 </html>
