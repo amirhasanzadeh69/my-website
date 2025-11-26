@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>دانلودها | Download</title>
+    <style>
+        body {
+            background: #111;
+            color: white;
+            font-family: Arial;
+            direction: rtl;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
+        }
+
+        a {
+            color: cyan;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff00ff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>دانلود فیلم و آهنگ</h1>
+
+    <!-- نمونه فیلم -->
+    <div class="item">
+        <h2>فیلم نمونه</h2>
+        <a href="movie.mp4" download>دانلود فیلم</a>
+    </div>
+
+    <!-- نمونه آهنگ -->
+    <div class="item">
+        <h2>آهنگ نمونه</h2>
+        <a href="music.mp3" download>دانلود آهنگ</a>
+    </div>
+
+</body>
+</html>
